@@ -3,6 +3,9 @@
   "editor.formatOnSave": true,
   // Configures font ligatures or font features.
   "editor.fontLigatures": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   // Use prettier-vscode extension to format .js .ts .jsx .tsx .less .css .json
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
